@@ -1,0 +1,5 @@
+body{
+	position: fixed;
+	background-image: url(bubble.jpg);
+	background-repeat: repeat-x;
+}
