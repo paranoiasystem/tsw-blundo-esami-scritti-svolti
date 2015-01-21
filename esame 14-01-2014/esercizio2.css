@@ -1,0 +1,14 @@
+#qwerty th{
+		background-color: red;
+		color: green;
+}
+
+#qwerty tr:nth-child(odd){
+		background-color: black;
+		color: yellow;
+}
+	
+#qwerty tr:nth-child(even){
+		background-color: green;
+		color: white;
+}

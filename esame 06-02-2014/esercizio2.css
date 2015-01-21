@@ -1,0 +1,6 @@
+div p:nth-child(even) em:first-child{
+			background-color: red;
+			color: green;
+			border: 3px yellow dashed;
+			padding: 4px;
+}

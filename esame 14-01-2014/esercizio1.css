@@ -1,0 +1,3 @@
+p > span:nth-child(2){
+			border: thick black solid;
+}
