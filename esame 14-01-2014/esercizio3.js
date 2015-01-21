@@ -1,4 +1,5 @@
 function statistica(){
+	var xmlDoc = null;
 	httpRequest = new XMLHttpRequest();
 	httpRequest.onreadystatechange = riempiTabella;
 	httpRequest.open("GET", "xml.xml", true);
@@ -15,7 +16,7 @@ function riempiTabella () {
 			alert('json');
 		else
 			alert('text');
-		var xmlDoc = httpRequest.responseXML;
+		xmlDoc = httpRequest.responseXML;
 		var response=xmlDoc.getElementsByTagName("anno");
 		var anno=response[0].text;
 		alert(anno);
