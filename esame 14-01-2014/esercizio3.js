@@ -1,8 +1,7 @@
 function statistica(){
-	var xmlDoc = null;
 	httpRequest = new XMLHttpRequest();
 	httpRequest.onreadystatechange = riempiTabella;
-	httpRequest.open("GET", "xml.xml", true);
+	httpRequest.open("GET", "getDati.php?anno=2003", true);
 	httpRequest.send();
 }
 
@@ -16,9 +15,9 @@ function riempiTabella () {
 			alert('json');
 		else
 			alert('text');
-		xmlDoc = httpRequest.responseXML;
-		var response=xmlDoc.getElementsByTagName("anno");
-		var anno=response[0].text;
+		var xmlDoc = httpRequest.responseXML;
+		var childs = xmlDoc.getElementsByTagName('response')[0].childNodes;
+		var anno = childs[0].innerHTML; 
 		alert(anno);
 	}
 }
