@@ -1,0 +1,14 @@
+a{
+	border: 2px red solid;
+	background-color: blue;
+	color: white;
+	display: inline-block;
+	padding: 5px auto 0;
+}
+a:hover{
+	border: 2px red dotted;
+	background-color: white;
+	color: blue;
+	display: inline-block;
+	padding: 5px auto 0;
+}
