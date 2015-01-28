@@ -1,0 +1,21 @@
+#cont{
+	border: 3px red dotted;
+	width: 450px;
+}
+table{
+	margin: 30px auto 0;
+}
+thead > tr {
+	text-align: center;
+	height: 40px;
+}
+tbody > tr:nth-child(even){
+	background-color: tomato;
+}
+tbody > tr:nth-child(odd){
+	background-color: purple;
+}
+p{
+	text-align: center;
+	margin-top: -2px;
+}
