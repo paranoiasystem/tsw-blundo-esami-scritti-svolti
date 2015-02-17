@@ -1,0 +1,24 @@
+tbody > tr:nth-child(odd){
+	background-color: red;
+}
+tbody > tr:nth-child(even){
+	background-color: blue;
+}
+tbody > tr:hover{
+	background-color: green;
+	cursor: pointer;
+}
+#uno{
+	position: absolute;
+	left: 2%;
+	top: 1%;
+}
+#due{
+	display: none;
+	position: absolute;
+	left: 32%;
+	top: 1%;
+}
+#due > span {
+	border: solid 1px black;
+}

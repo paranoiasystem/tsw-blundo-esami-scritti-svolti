@@ -1,0 +1,156 @@
+HTTP: Il protocollo HTTP
+
+L'HyperText Transfer Protocol (HTTP) (protocollo di trasferimento di un ipertesto) è usato come principale sistema per la trasmissione d'informazioni sul web ovvero in un'architettura tipica client-server.
+Le specifiche del protocollo sono gestite dal World Wide Web Consortium (W3C). Un server HTTP generalmente resta in ascolto delle richieste dei client sulla porta 80 usando il protocollo TCP a livello di trasporto.
+
+HTTP: Formato dei messaggi request e response di HTTP
+
+
+I messaggi HTTP sono di 2 tipi: request / response
+Una volta stabilita la connessione, il browser richiede una risorsa al web server (request) ed il server risponde inviando o la risorsa richiesta oppure un messaggio di errore (response)
+
+HTTP: I metodi GET, POST, HEAD e PUT di HTTP
+
+I seguenti metodi si dividono in due tipi, di scrittura e lettura. I metodi di lettura sono: GET e HEAD. Mentre quelli di scrittura sono: POST e PUT.
+
+Un metodo HTTP può essere:
+sicuro: non altera lo stato della risorsa
+idempotente: l’effetto di più richieste identiche è lo stesso di quello di una sola richiesta.
+
+Il metodo GET è uno dei metodi più utilizzati, esso è sicuro ed idempotente. Viene usato per richiedere dati o risorse.
+
+Il metodo HEAD è una variante di GET, ma non viene restituita tutta la risorsa, il server risponde soltanto con i metadati associati alla risorsa richiesta (solo header). Viene utilizzato principalmente per scopi di controllo e debugging. Il metodo HEAD si usa per ottenere informazioni sulla risorsa.
+
+Il metodo POST permette di trasmettere delle informazioni dal client al server. Non è sicuro né idempotente. Viene usato per sottomettere i dati di un form HTML ad un’applicazione sul server.
+
+Il metodo PUT serve per trasmettere delle informazioni dal client al server, creando o sostituendo la risorsa specificata. PUT è idempotente ma non sicuro.
+
+HTTP: Il Web ed il W3C
+
+
+
+HTTP;Architettura client-server del web,
+HTML;Il linguaggio di markup HTML,
+HTML;La struttura di un documento HTML,
+HTML;I meta tag di HTML,
+HTML;Elementi HTML di una pagina Web,
+HTML;Tag ed attributi HTML,
+HTML;Gestione dei caratteri speciali in HTML,
+HTML;Dichiarazione di DOCTYPE,
+HTML;Utilizzo della direttiva DOCTYPE 
+HTML;Utilizzo DTD Strict, Transitional e Frameset,
+HTML;Liste di selezione in HTML,
+HTML;Creazione di paragrafi in HTML,
+HTML;Navigazione tra i contenuti delle pagine web,
+HTML;Creazione di liste in HTML,
+HTML;Creazione di tabelle in HTML,
+HTML;Utilizzo delle delle tabelle in HTML,
+HTML;Creazione di moduli e controlli utente,
+HTML;Creazione di ancore e collegamenti ipertestuali in HTML,
+HTML;Creazione di moduli in HTML,
+HTML;Suddividere la pagina in frame con HTML,
+HTML;Inclusioni di immagini in HTML,
+HTML;Mappe lato client in HTML,
+HTML;Visualizzazione di immagini e creazione di mappe in HTML,
+HTML;Inclusione di fogli di stile in HTML,
+HTML;Utilizzo di accesskey e tabindex nei moduli HTML,
+PHP;Caratteristiche delle variabili in PHP,
+PHP;Variabili e costanti in PHP,
+PHP;Operatori aritmetici e logici di PHP,
+PHP;Array associativi in PHP,
+PHP;Strutture di controllo in PHP,
+PHP;Gli array associativi $_POST e $_GET in PHP,
+PHP;Definizione di funzioni in PHP,
+PHP;Funzioni anonime in PHP,
+PHP;Funzioni con numero variabile di argomenti in PHP,
+PHP;Inclusione di file esterni in PHP,
+PHP;Gestione dei cookie in PHP,
+PHP;Gestione delle sessioni in PHP,
+PHP;Funzioni con numero varialibile di argomenti in PHP,
+PHP;Accesso a database in PHP (MySql),
+PHP;Array multidimensionali in PHP,
+PHP;Interazione con il browser in PHP,
+PHP;La gestione di file in PHP,
+PHP;Tipi di dati e variabili in PHP,
+PHP;Campo di visibilità delle variabili in PHP,
+PHP;Funzioni su array e stringhe in PHP,
+PHP;Gli array associativi $_SERVER e $_ENV in PHP,
+PHP;Moduli auto-chiamanti e sticky-form in PHP,
+PHP;Interagire con l'intestazione HTTP in PHP,
+PHP;L'array associativo $_FILES,
+PHP;Persistenza dei dati con PHP,
+PHP;Conservazione dello stato con PHP,
+CSS;I fogli di stile con CSS,
+CSS;Differenze tra i fogli di stile in linea, interni ed esterni,
+CSS;L'ereditarietà in CSS,
+CSS;Selettori e classi di CSS,
+CSS;Effetto cascading in CSS,
+CSS;Definizione di una regola CSS,
+CSS;Come collegare una pagina HTML ad un foglio di stile,
+CSS;Pseudo-classi e pseudo-elementi di CSS,
+CSS;Tipi di dati ed unità di misura di CSS,
+CSS;I selettori di figli e di fratelli adiacenti,
+CSS;I selettori di classe e di ID,
+CSS;Proprietà CSS,
+CSS;Il box model di CSS,
+CSS;Il page model di CSS,
+CSS;Il posizionamento in CSS,
+CSS;Media type in CSS,
+CSS;La regola @import,
+CSS;I diversi tipi di media utilizzabili nei CSS,
+CSS;Personalizzazione liste con CSS,
+CSS;Elementi flottanti con CSS,
+CSS;Utilizzo degli pseudoelementi first-line e first-letter in CSS,
+CSS;Le @rules in CSS,
+CSS;Gestione dei colori e sfondo in CSS,
+CSS;Algoritmo per il calcolo della specificità in CSS,
+CSS;Posizionamento, visualizzazione e dimensionamento degli elementi con CSS,
+CSS;Gestione dei bordi e dei margini degli elementi con CSS,
+CSS;Formattazione e giustificazione del testo con CSS,
+CSS;z-index in CSS,
+CSS;Gestione dell'overflow con CSS,
+CSS;Allineamento e indentazione del testo con CSS,
+CSS;Proprietà del box model di CSS,
+CSS;Proprietà delle liste di CSS,
+JS;La programmazione lato client con Javascript,
+JS;Elementi del linguaggio Javascript,
+JS;Campo di visibilità delle variabili in Javascript,
+JS;Le funzioni Javascript,
+JS;Variabili, letterali e tipi Javascript,
+JS;Operatori Javascript,
+JS;Modello a oggetti Javascript,
+JS;Strutture di controllo in Javascript,
+JS;Oggetti Core Javascript,
+JS;Modello ad oggetti tradizionale Javascript,
+JS;La programmazione Event-Driven in Javascript,
+JS;Oggetti client-side Javascript,
+JS;Oggetto String in Javascript,
+JS;Oggetto Document in Javascript,
+JS;Il costruttore Function,
+JS;Funzioni anonime in Javascript,
+JS;Il Document Object Model,
+JS;Manipolazione degli attributi degli elementi in Javascript,
+JS;Il Browser Object Model,
+JS;Gli oggetti window e navigator,
+JS;Manipolazione di cascading style sheet in Javascript,
+JS;Manipolazione del documento HTML con Javascript,
+JS;Gestione degli eventi in Javascript,
+JS;Le tre fasi del ciclo di vita degli eventi in Javascript,
+JS;Registrazione degli eventi in Javascript,
+JS;Interazione tra Javascript e HTML,
+JS;Accesso ai moduli HTML con Javascript,
+JS;Validazione moduli HTML con Javascript,
+JS;Accesso ai cookie con Javascript,
+JS;Modifica proprietà CSS con JAVASCRIPT,
+AJAX;L'oggetto XMLHttpRequest,
+AJAX;Utilizzo della proprietà onreadystatechange di XMLHttpRequest,
+AJAX;Utilizzo della proprietà status di XMLHttpRequest,
+AJAX;Differenza di utilizzo delle proprietà responseText e responseXML,
+AJAX;Modelli di applicazioni web: Classico e Ajax,
+AJAX;Il ciclo di vita di un'applicazione Ajax,
+XML;Il linguaggio di markup XML,
+XML;Definizione di documento XML valido e ben formato,
+XML;Elementi ed attributi di XML,
+XML;Namespace in XML,
+XML;Sintassi XML,
+XML;XML e CSS,
