@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Esame</title>
+</head>
+<style type="text/css">
+	#head{
+		border: solid 2px red;
+		background-color: yellow;
+		text-align: center;
+	}
+	#sinistra{
+		border: solid 2px red;
+		position: absolute;
+		top: 25%;
+		left: 20px;
+	}
+	#destra{
+		border: solid 2px red;
+		position: absolute;
+		top: 25%;
+		width: 190px;
+		height: 100px;
+		right: 20px;
+		/*text-align: center;*/
+	}
+	#destra p{
+		text-align: center;
+	}
+	.blue:first-child{
+		top: 50px;
+		left: 10px;
+	}
+	.blue{
+		position: relative;
+		border: solid 2px blue;
+		height: 10px;
+		width: 50px;
+		display: inline-block;
+	}
+	.blue:last-child{
+		right: -30px;
+	}
+</style>
+<body>
+	<div id="head">
+		<h1>Monitoraggio Sensori</h1>
+		<p>Lettura in tempo reale</p>
+	</div>
+	<div id="sinistra">
+		<p>Scegli l'area <select>
+						<option>NORD</option>
+						<option>CENTRO</option>
+						<option>SUD</option>
+					  </select> ed il parametro</p>
+	</div>
+	<div id="destra">
+		<p>Area: <span id="area"></span></p>
+		<div class="blue" id="z1"></div>
+		<div class="blue" id="z2"></div>
+		<div class="blue" id="z3"></div>
+		<div class="blue" id="z4"></div>
+		<div class="blue" id="z5"></div>
+	</div>
+</body>
+</html>
