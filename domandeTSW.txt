@@ -27,130 +27,533 @@ Il metodo PUT serve per trasmettere delle informazioni dal client al server, cre
 
 HTTP: Il Web ed il W3C
 
+W3C significa “World Wide Web Consortium”, Il W3C è un consorzio di aziende del settore informatico che si occupa di stabilire standard di riferimento per il Web.
+
+HTTP: Architettura client-server del web
+
+L'HTTP funziona su un meccanismo richiesta/risposta (client/server):
+-il client (componente che accede ai servizi o alle risorse di un'altra componente) effettua una richiesta
+-il server restituisce la risposta. (per server si intende comunemente un computer dedicato allo svolgimento di un servizio preciso, come la gestione di una rete locale o geografica, la gestione delle periferiche di stampa, lo scambio e condivisione di dati fra i computer, l'invio o inoltro di posta elettronica o a contenere i file in un sito web) 
+
+HTML: Il linguaggio di markup HTML
+
+HTML è un linguaggio di markup che serve ad identificare gli elementi di una pagina in modo tale che un broswer possa rappresentare la pagina sullo schermo del proprio computer.
+
+HTML: La struttura di un documento HTML
+
+Un documento HTML  richiede la dichiarazione di un doctype in testa al documento per assicurare che il browser renderizzi correttamente la pagina poi si continua con il tag <HTML> e termina col tag </HTML>.
+Il documento è poi suddiviso in due parti:
+-intestazione <HEAD></HEAD>;
+-corpo <BODY></BODY>.
+
+La struttura base di un documento risulta così:
+
+<HTML>
+
+<HEAD>
+<TITLE>Titolo del documento</TITLE>
+</HEAD>
+
+<BODY>
+
+Corpo del documento
+
+</BODY>
+
+</HTML>
+
+HTML: I meta tag di HTML
+
+Il tag META è utilizzato per conservare informazioni sul documento. Il tag META è utilizzato dai motori di ricerca per catalogare il documento.
+Possibili valori possono essere: author, description, keywords. 
+
+HTML: Elementi HTML di una pagina Web
 
 
-HTTP;Architettura client-server del web,
-HTML;Il linguaggio di markup HTML,
-HTML;La struttura di un documento HTML,
-HTML;I meta tag di HTML,
-HTML;Elementi HTML di una pagina Web,
-HTML;Tag ed attributi HTML,
-HTML;Gestione dei caratteri speciali in HTML,
-HTML;Dichiarazione di DOCTYPE,
-HTML;Utilizzo della direttiva DOCTYPE 
-HTML;Utilizzo DTD Strict, Transitional e Frameset,
-HTML;Liste di selezione in HTML,
-HTML;Creazione di paragrafi in HTML,
-HTML;Navigazione tra i contenuti delle pagine web,
-HTML;Creazione di liste in HTML,
-HTML;Creazione di tabelle in HTML,
-HTML;Utilizzo delle delle tabelle in HTML,
-HTML;Creazione di moduli e controlli utente,
-HTML;Creazione di ancore e collegamenti ipertestuali in HTML,
-HTML;Creazione di moduli in HTML,
-HTML;Suddividere la pagina in frame con HTML,
-HTML;Inclusioni di immagini in HTML,
-HTML;Mappe lato client in HTML,
-HTML;Visualizzazione di immagini e creazione di mappe in HTML,
-HTML;Inclusione di fogli di stile in HTML,
-HTML;Utilizzo di accesskey e tabindex nei moduli HTML,
-PHP;Caratteristiche delle variabili in PHP,
-PHP;Variabili e costanti in PHP,
-PHP;Operatori aritmetici e logici di PHP,
-PHP;Array associativi in PHP,
-PHP;Strutture di controllo in PHP,
-PHP;Gli array associativi $_POST e $_GET in PHP,
-PHP;Definizione di funzioni in PHP,
-PHP;Funzioni anonime in PHP,
-PHP;Funzioni con numero variabile di argomenti in PHP,
-PHP;Inclusione di file esterni in PHP,
-PHP;Gestione dei cookie in PHP,
-PHP;Gestione delle sessioni in PHP,
-PHP;Funzioni con numero varialibile di argomenti in PHP,
-PHP;Accesso a database in PHP (MySql),
-PHP;Array multidimensionali in PHP,
-PHP;Interazione con il browser in PHP,
-PHP;La gestione di file in PHP,
-PHP;Tipi di dati e variabili in PHP,
-PHP;Campo di visibilità delle variabili in PHP,
-PHP;Funzioni su array e stringhe in PHP,
-PHP;Gli array associativi $_SERVER e $_ENV in PHP,
-PHP;Moduli auto-chiamanti e sticky-form in PHP,
-PHP;Interagire con l'intestazione HTTP in PHP,
-PHP;L'array associativo $_FILES,
-PHP;Persistenza dei dati con PHP,
-PHP;Conservazione dello stato con PHP,
-CSS;I fogli di stile con CSS,
-CSS;Differenze tra i fogli di stile in linea, interni ed esterni,
-CSS;L'ereditarietà in CSS,
-CSS;Selettori e classi di CSS,
-CSS;Effetto cascading in CSS,
-CSS;Definizione di una regola CSS,
-CSS;Come collegare una pagina HTML ad un foglio di stile,
-CSS;Pseudo-classi e pseudo-elementi di CSS,
-CSS;Tipi di dati ed unità di misura di CSS,
-CSS;I selettori di figli e di fratelli adiacenti,
-CSS;I selettori di classe e di ID,
-CSS;Proprietà CSS,
-CSS;Il box model di CSS,
-CSS;Il page model di CSS,
-CSS;Il posizionamento in CSS,
-CSS;Media type in CSS,
-CSS;La regola @import,
-CSS;I diversi tipi di media utilizzabili nei CSS,
-CSS;Personalizzazione liste con CSS,
-CSS;Elementi flottanti con CSS,
-CSS;Utilizzo degli pseudoelementi first-line e first-letter in CSS,
-CSS;Le @rules in CSS,
-CSS;Gestione dei colori e sfondo in CSS,
-CSS;Algoritmo per il calcolo della specificità in CSS,
-CSS;Posizionamento, visualizzazione e dimensionamento degli elementi con CSS,
-CSS;Gestione dei bordi e dei margini degli elementi con CSS,
-CSS;Formattazione e giustificazione del testo con CSS,
-CSS;z-index in CSS,
-CSS;Gestione dell'overflow con CSS,
-CSS;Allineamento e indentazione del testo con CSS,
-CSS;Proprietà del box model di CSS,
-CSS;Proprietà delle liste di CSS,
-JS;La programmazione lato client con Javascript,
-JS;Elementi del linguaggio Javascript,
-JS;Campo di visibilità delle variabili in Javascript,
-JS;Le funzioni Javascript,
-JS;Variabili, letterali e tipi Javascript,
-JS;Operatori Javascript,
-JS;Modello a oggetti Javascript,
-JS;Strutture di controllo in Javascript,
-JS;Oggetti Core Javascript,
-JS;Modello ad oggetti tradizionale Javascript,
-JS;La programmazione Event-Driven in Javascript,
-JS;Oggetti client-side Javascript,
-JS;Oggetto String in Javascript,
-JS;Oggetto Document in Javascript,
-JS;Il costruttore Function,
-JS;Funzioni anonime in Javascript,
-JS;Il Document Object Model,
-JS;Manipolazione degli attributi degli elementi in Javascript,
-JS;Il Browser Object Model,
-JS;Gli oggetti window e navigator,
-JS;Manipolazione di cascading style sheet in Javascript,
-JS;Manipolazione del documento HTML con Javascript,
-JS;Gestione degli eventi in Javascript,
-JS;Le tre fasi del ciclo di vita degli eventi in Javascript,
-JS;Registrazione degli eventi in Javascript,
-JS;Interazione tra Javascript e HTML,
-JS;Accesso ai moduli HTML con Javascript,
-JS;Validazione moduli HTML con Javascript,
-JS;Accesso ai cookie con Javascript,
-JS;Modifica proprietà CSS con JAVASCRIPT,
-AJAX;L'oggetto XMLHttpRequest,
-AJAX;Utilizzo della proprietà onreadystatechange di XMLHttpRequest,
-AJAX;Utilizzo della proprietà status di XMLHttpRequest,
-AJAX;Differenza di utilizzo delle proprietà responseText e responseXML,
-AJAX;Modelli di applicazioni web: Classico e Ajax,
-AJAX;Il ciclo di vita di un'applicazione Ajax,
-XML;Il linguaggio di markup XML,
-XML;Definizione di documento XML valido e ben formato,
-XML;Elementi ed attributi di XML,
-XML;Namespace in XML,
-XML;Sintassi XML,
-XML;XML e CSS,
+
+HTML: Tag ed attributi HTML
+
+
+
+HTML: Gestione dei caratteri speciali in HTML
+
+Per ciascun carattere speciale esiste sia un codice nominale che un codice numerico (unicode).
+La sintassi per inserire i codici è sempre &[entità];
+Alcuni codici: 
+-é &eacute;
+-è &egrave;
+
+HTML: Dichiarazione di DOCTYPE
+
+
+
+HTML: Utilizzo della direttiva DOCTYPE 
+
+
+
+HTML: Utilizzo DTD Strict, Transitional e Frameset
+
+
+
+HTML: Liste di selezione in HTML
+
+
+
+HTML: Creazione di paragrafi in HTML
+
+In HTML la creazione di paragrafi si effettua tramite l'utilizzo del tag "P"
+
+HTML: Navigazione tra i contenuti delle pagine web
+
+
+
+HTML: Creazione di liste in HTML
+
+
+
+HTML: Creazione di tabelle in HTML
+
+Una tabella in HTML viene definita utilizzando i tag "table", per inserire una riga in una tabella tra il tag di apertura si usa il tag "tr" per inserire una cella all'interno di una riga si usa il tag "td"
+
+HTML: Utilizzo delle delle tabelle in HTML
+
+
+
+HTML: Creazione di moduli e controlli utente
+
+
+
+HTML: Creazione di ancore e collegamenti ipertestuali in HTML
+
+
+
+HTML: Creazione di moduli in HTML
+
+
+
+HTML: Suddividere la pagina in frame con HTML
+
+
+
+HTML: Inclusioni di immagini in HTML
+
+Le immagini in HTML si includono mediante l'uso del tag "img" con attibuto src dove come valore è possibile definire la path alla risorsa da includere, può essere assoluta o relativa
+
+HTML: Mappe lato client in HTML
+
+
+
+HTML: Visualizzazione di immagini e creazione di mappe in HTML
+
+
+
+HTML: Inclusione di fogli di stile in HTML
+
+L'inclusione dei fogli di stile in html viene effettuata tramite l'utilizzo del tag "link" utilizzando come parametri 
+-rel="stylesheet" serve a definire la relazione con il documento, il valore stylesheet significa "foglio di stile"
+-type="text/css" serve a definire il mime-type del file da includere in questo caso text/css
+-href="" serve a definire la path alla risorsa da includere, può essere assoluta o relativa
+
+HTML: Utilizzo di accesskey e tabindex nei moduli HTML
+
+
+
+PHP: Caratteristiche delle variabili in PHP
+
+
+
+PHP: Variabili e costanti in PHP
+
+
+
+PHP: Operatori aritmetici e logici di PHP
+
+
+
+PHP: Array associativi in PHP
+
+
+
+PHP: Strutture di controllo in PHP
+
+
+
+PHP: Gli array associativi $_POST e $_GET in PHP
+
+
+
+PHP: Definizione di funzioni in PHP
+
+
+
+PHP: Funzioni anonime in PHP
+
+
+
+PHP: Funzioni con numero variabile di argomenti in PHP
+
+
+
+PHP: Inclusione di file esterni in PHP
+
+
+
+PHP: Gestione dei cookie in PHP
+
+
+
+PHP: Gestione delle sessioni in PHP
+
+
+
+PHP: Funzioni con numero varialibile di argomenti in PHP
+
+
+
+PHP: Accesso a database in PHP (MySql)
+
+
+
+PHP: Array multidimensionali in PHP
+
+
+
+PHP: Interazione con il browser in PHP
+
+
+
+PHP: La gestione di file in PHP
+
+
+
+PHP: Tipi di dati e variabili in PHP
+
+
+
+PHP: Campo di visibilità delle variabili in PHP
+
+
+
+PHP: Funzioni su array e stringhe in PHP
+
+
+
+PHP: Gli array associativi $_SERVER e $_ENV in PHP
+
+
+
+PHP: Moduli auto-chiamanti e sticky-form in PHP
+
+
+
+PHP: Interagire con l'intestazione HTTP in PHP
+
+
+
+PHP: L'array associativo $_FILES
+
+
+
+PHP: Persistenza dei dati con PHP
+
+
+
+PHP: Conservazione dello stato con PHP
+
+
+
+CSS: I fogli di stile con CSS
+
+
+
+CSS: Differenze tra i fogli di stile in linea, interni ed esterni
+
+
+
+CSS: L'ereditarietà in CSS
+
+
+
+CSS: Selettori e classi di CSS
+
+
+
+CSS: Effetto cascading in CSS
+
+
+
+CSS: Definizione di una regola CSS
+
+
+
+CSS: Come collegare una pagina HTML ad un foglio di stile
+
+
+
+CSS: Pseudo-classi e pseudo-elementi di CSS
+
+
+
+CSS: Tipi di dati ed unità di misura di CSS
+
+
+
+CSS: I selettori di figli e di fratelli adiacenti
+
+
+
+CSS: I selettori di classe e di ID
+
+
+
+CSS: Proprietà CSS
+
+
+
+CSS: Il box model di CSS
+
+
+
+CSS: Il page model di CSS
+
+
+
+CSS: Il posizionamento in CSS
+
+
+
+CSS: Media type in CSS
+
+
+
+CSS: La regola @import
+
+
+
+CSS: I diversi tipi di media utilizzabili nei CSS
+
+
+
+CSS: Personalizzazione liste con CSS
+
+
+
+CSS: Elementi flottanti con CSS
+
+
+
+CSS: Utilizzo degli pseudoelementi first-line e first-letter in CSS
+
+
+
+CSS: Le @rules in CSS
+
+
+
+CSS: Gestione dei colori e sfondo in CSS
+
+
+
+CSS: Algoritmo per il calcolo della specificità in CSS
+
+
+
+CSS: Posizionamento, visualizzazione e dimensionamento degli elementi con CSS
+
+
+
+CSS: Gestione dei bordi e dei margini degli elementi con CSS
+
+
+
+CSS: Formattazione e giustificazione del testo con CSS
+
+
+
+CSS: z-index in CSS
+
+
+
+CSS: Gestione dell'overflow con CSS
+
+
+
+CSS: Allineamento e indentazione del testo con CSS
+
+
+
+CSS: Proprietà del box model di CSS
+
+
+
+CSS: Proprietà delle liste di CSS
+
+
+
+JS: La programmazione lato client con Javascript
+
+
+
+JS: Elementi del linguaggio Javascript
+
+
+
+JS: Campo di visibilità delle variabili in Javascript
+
+
+
+JS: Le funzioni Javascript
+
+
+
+JS: Variabili, letterali e tipi Javascript
+
+
+
+JS: Operatori Javascript
+
+
+
+JS: Modello a oggetti Javascript
+
+
+
+JS: Strutture di controllo in Javascript
+
+
+
+JS: Oggetti Core Javascript
+
+
+
+JS: Modello ad oggetti tradizionale Javascript
+
+
+
+JS: La programmazione Event-Driven in Javascript
+
+
+
+JS: Oggetti client-side Javascript
+
+
+
+JS: Oggetto String in Javascript
+
+
+
+JS: Oggetto Document in Javascript
+
+
+
+JS: Il costruttore Function
+
+
+
+JS: Funzioni anonime in Javascript
+
+
+
+JS: Il Document Object Model
+
+
+
+JS: Manipolazione degli attributi degli elementi in Javascript
+
+
+
+JS: Il Browser Object Model
+
+
+
+JS: Gli oggetti window e navigator
+
+
+
+JS: Manipolazione di cascading style sheet in Javascript
+
+
+
+JS: Manipolazione del documento HTML con Javascript
+
+
+
+JS: Gestione degli eventi in Javascript
+
+
+
+JS: Le tre fasi del ciclo di vita degli eventi in Javascript
+
+
+
+JS: Registrazione degli eventi in Javascript
+
+
+
+JS: Interazione tra Javascript e HTML
+
+
+
+JS: Accesso ai moduli HTML con Javascript
+
+
+
+JS: Validazione moduli HTML con Javascript
+
+
+
+JS: Accesso ai cookie con Javascript
+
+
+
+JS: Modifica proprietà CSS con JAVASCRIPT
+
+
+
+AJAX: L'oggetto XMLHttpRequest
+
+
+
+AJAX: Utilizzo della proprietà onreadystatechange di XMLHttpRequest
+
+
+
+AJAX: Utilizzo della proprietà status di XMLHttpRequest
+
+
+
+AJAX: Differenza di utilizzo delle proprietà responseText e responseXML
+
+
+
+AJAX: Modelli di applicazioni web: Classico e Ajax
+
+
+
+AJAX: Il ciclo di vita di un'applicazione Ajax
+
+
+
+XML: Il linguaggio di markup XML
+
+
+
+XML: Definizione di documento XML valido e ben formato
+
+
+
+XML: Elementi ed attributi di XML
+
+
+
+XML: Namespace in XML
+
+
+
+XML: Sintassi XML
+
+
+
+XML: XML e CSS
+
+
